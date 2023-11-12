@@ -1,3 +1,9 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
 .list {
     list-style-type: none;
 }
@@ -15,7 +21,7 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: -0.03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
 }
@@ -25,7 +31,7 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: -0.03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
 }
@@ -42,6 +48,10 @@
 .menu-link:hover,
 .menu-link:focus {
     color: #404BBF;
+}
+
+.contacts {
+    font-style: normal;
 }
 
 .link-contact {
@@ -61,10 +71,8 @@
 
 .service {
     background: #2E2F42;
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
 }
+
 .solution {
     font-family: 'Roboto', sans-serif;
     font-size: 56px;
@@ -74,7 +82,6 @@
     color: #FFF;
     text-align: center;
     background: #2E2F42;
-    width: 496px;
 }
 
 .button {
@@ -104,7 +111,6 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    width: 264px;
 }
 
 .benefit-info {
@@ -114,7 +120,6 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    width: 264px;
 }
 
 .our-team {
@@ -138,26 +143,18 @@
 
 .member-one {
     background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
-    width: 264px;
-    height: 260px;
 }
 
 .member-two {
     background: url(<path-to-image>), lightgray -335.01px -22.055px / 256.162% 173.614% no-repeat;
-    width: 264px;
-    height: 260px;
 }
 
 .member-three {
     background: url(<path-to-image>), lightgray -128.784px -0.151px / 197.563% 133.752% no-repeat;
-    width: 264px;
-    height: 260px;
 }
 
 .member-four {
     background: url(<path-to-image>), lightgray -200px -7.128px / 251.515% 170.277% no-repeat;
-    width: 264px;
-    height: 260px;
 }
 
 .member {
@@ -182,8 +179,7 @@
 
 .portfolio {
     background: #FFF;
-    width: 1440px;
-    height: 3300px;
+    background-color: #FFFFFF; 
 }
 
 .topic {
@@ -212,56 +208,35 @@
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--SLATE, #434455);
+    color: #434455;
 }
 
 .topic-one {
     background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
-    width: 360px;
-    height: 300px;
-    flex-shrink: 0;
 }
 
 .topic-two {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    width: 360px;
-    height: 300px;
-    flex-shrink: 0;
 }
 
 .topic-three {
     background: url(<path-to-image>), lightgray -1px 0px / 101.111% 100% no-repeat;
-    width: 360px;
-    height: 300px;
-    flex-shrink: 0;
 }
 
 .topic-four {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    width: 360px;
-    height: 300px;
-    flex-shrink: 0;
 }
 
 .topic-five {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    width: 360px;
-    height: 300px;
-    flex-shrink: 0;
 }
 
 .topic-six {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    width: 360px;
-    height: 300px;
-    flex-shrink: 0;
 }
 
 .fin {
     background: #2E2F42;
-    width: 1440px;
-    height: 312px;
-    flex-shrink: 0;
 }
 
 .fin-logo {
@@ -271,9 +246,6 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    width: 71px;
-    height: 21px;
-    flex-direction: column;
     justify-content: center;
     color: #F4F4FD;
 }
@@ -283,7 +255,6 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     color: #F4F4FD;
-    width: 264px;
 }
